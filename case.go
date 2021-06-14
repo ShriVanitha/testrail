@@ -56,7 +56,7 @@ type SendableCase struct {
 	Refs            string       `json:"refs,omitempty"`
 	Checkbox        bool         `json:"custom_checkbox,omitempty"`
 	Date            string       `json:"custom_date,omitempty"`
-	Dropdown        int          `json:"custom_dropdown,omitempty"`
+	State           int          `json:"custom_state,omitempty"`
 	Integer         int          `json:"custom_integer,omitempty"`
 	Milestone       int          `json:"custom_milestone,omitempty"`
 	MultiSelect     []int        `json:"custom_multi-select,omitempty"`
